@@ -1,0 +1,16 @@
+# State local (contém dados sensíveis e é específico de cada máquina)
+*.tfstate
+*.tfstate.*
+
+# Diretório de providers baixados pelo terraform init
+.terraform/
+
+# Arquivos gerados pelos exercícios
+**/agentes/
+**/servicos/
+ex1/ola_gaia.txt
+ex2/arquivo-*.txt
+
+# Planos salvos e logs de crash
+*.tfplan
+crash.log
